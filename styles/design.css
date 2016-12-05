@@ -106,6 +106,10 @@ footer p {
   font-size: 1.5rem;
 }
 
+footer ul {
+  text-align: right;
+}
+
 .facebook {
   text-decoration: none;
   color: #3b5998;
