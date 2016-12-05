@@ -70,3 +70,18 @@ footer p {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.facebook {
+  text-decoration: none;
+  color: #3b5998;
+}
+
+.linkedin {
+  text-decoration: none;
+  color: #0077b5;
+}
+
+.twitter {
+  text-decoration: none;
+  color: #1da1f2;
+}
