@@ -33,7 +33,7 @@ nav li a{
   font-family: Cherry Swash;
   color: rgb(82, 62, 51);
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-indent: 3rem;
   text-align: center;
   display:inline-block;
@@ -43,6 +43,15 @@ nav li a{
 img.shadow {
   box-shadow: .7rem .7rem 1rem rgba(0, 0, 0, .3);
   display: block;
+}
+
+img.round {
+  border-radius: 50%;
+  max-width: 15rem;
+}
+
+figure {
+  text-align: center;
 }
 
 h2 {
@@ -63,6 +72,11 @@ p {
   font-size: 1.3rem;
   color:rgb(82, 62, 51);
   padding: .2rem .1rem 1rem 1rem;
+}
+
+p.instructor {
+  margin:3rem;
+  padding-bottom: 4rem;
 }
 
 footer p {
