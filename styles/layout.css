@@ -19,8 +19,8 @@ div.row:after {
   
 [class^='col_']  {
     float: left;
-    background-color: #99FFCC;
-    border: 1px solid black;
+  /*  background-color: #99FFCC;
+    border: 1px solid black;*/
     padding: 1rem;
 }
 
@@ -32,3 +32,6 @@ div.row:after {
 
 /*End Box Layout stylings*/
 
+[class^='col_'] img {
+  width: 100%;
+}
