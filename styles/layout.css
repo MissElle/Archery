@@ -35,3 +35,16 @@ div.row:after {
 [class^='col_'] img {
   width: 100%;
 }
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+footer li {
+  list-style: none;
+  display: inline-block;
+  font-size: 1.7rem;
+  padding-left: 1.2rem;
+}
+
