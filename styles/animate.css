@@ -1,11 +1,33 @@
 /*This will make the navbar links grow and glow green when hovered over*/
 nav a:hover {transform:scale(1.2);}
-nav a:hover {transition: all .07s ease-in;}
-nav a {transition: all .07s ease-out;}
-nav a:hover {text-shadow: .05rem .05rem .5rem rgba(148, 200, 64, 1);}
+nav a:hover 
+{transition: all .07s ease-in;}
+nav a 
+{transition: all .07s ease-out;}
+nav a:hover 
+{text-shadow: .05rem .05rem .5rem rgba(148, 200, 64, 1);}
 
 /*This will make the social media icons grow when hovered over*/
 
 footer i:hover {transform:scale(2);}
-footer i:hover {transition: all .07s ease-in;}
-footer i {transition: all .07s ease-out;}
+footer i:hover 
+{transition: all .07s ease-in;}
+footer i 
+{transition: all .07s ease-out;}
+
+/*This will cause the instructor s icon images to rotate */
+
+img.round:hover {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to {
+    transform: rotate(360deg);
+  }
+}
+
