@@ -30,6 +30,13 @@ div.row:after {
   div.col_4_of_5 {width: 80%;}
   div.col_5_of_5 {width: 100%}
 
+  div.col_1_of_4 {width: 25%}
+  div.col_2_of_4 {width: 50%}
+  div.col_3_of_4 {width: 75%}
+
+  div.col_1_of_3 {width: 33.333%}
+  div.col_2_of_3 {width: 66.66666%}
+
 /*End Box Layout stylings*/
 
 [class^='col_'] img {
