@@ -21,7 +21,7 @@ div.row:after {
     float: left;
   /*  background-color: #99FFCC;
     border: 1px solid black;*/
-    padding: 1rem;
+    padding: .5rem;
 }
 
   div.col_1_of_5 {width: 20%;}
@@ -54,4 +54,3 @@ footer li {
   font-size: 1.7rem;
   padding-left: 1.2rem;
 }
-
