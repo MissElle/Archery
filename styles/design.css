@@ -80,6 +80,26 @@ p.instructor {
   padding-bottom: 4rem;
 }
 
+ul {
+  font-family: Roboto Slab;
+  font-size: 1.4rem;
+  color: rgb(82, 62, 51);
+  text-shadow: .05rem .05rem rgb(148, 200, 64);
+  margin: 0 4rem 0 2rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+.col_1_of_3 li:first-child {
+  font-weight: bold;
+}
+
+.col_3_of_5 ul li:last-child {
+  font-weight: bold;
+}
+
 footer p {
   font-family: Cherry Swash;
   font-weight: bold;
