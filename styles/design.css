@@ -22,7 +22,7 @@ header section {
   color:rgb(82, 62, 51);
   font-weight: bold;
   margin-top: 3.3rem;
-  
+  text-align: right;
 }
 
 header img {
@@ -43,4 +43,30 @@ nav li a{
 img.shadow {
   box-shadow: .7rem .7rem 1rem rgba(0, 0, 0, .3);
   display: block;
+}
+
+h2 {
+  font-family: Roboto Slab;
+  font-size: 2rem;
+  color:rgb(82, 62, 51);
+  text-align: center;
+}
+
+h3 {
+  font-family: Roboto Slab;
+  font-size: 1.6rem;
+  color:rgb(82, 62, 51);
+}
+
+p {
+  font-family: Roboto Slab;
+  font-size: 1.3rem;
+  color:rgb(82, 62, 51);
+  padding: .2rem .1rem 1rem 1rem;
+}
+
+footer p {
+  font-family: Cherry Swash;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
