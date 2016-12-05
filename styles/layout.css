@@ -28,7 +28,7 @@ div.row:after {
   div.col_2_of_5 {width: 40%;}
   div.col_3_of_5 {width: 60%;}
   div.col_4_of_5 {width: 80%;}
-  div.col_5_of_5 {width: 100%}
+  div.col_5_of_5 {width: 99%}
 
   div.col_1_of_4 {width: 25%}
   div.col_2_of_4 {width: 50%}
